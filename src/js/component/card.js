@@ -3,20 +3,18 @@ import PropTypes from "prop-types";
 
 const Card = () => {
 	return (
-		<div className="card" style={{ width: "18rem" }}>
-			<img src="www.gmail.com" alt="Card image cap" />
-			<div className="card-body">
-				<h5 className="card-title">Card title</h5>
-				<p className="card-text">
-					Some quick example text to build on the card title and make
-					up the bulk of the card's content.
-				</p>
-				<a href="#" className="btn btn-primary">
-					Go somewhere
-				</a>
+		<div
+			className="card align-middle text-center mr-2"
+			style={{ height: "12rem", width: "8rem", background: "black" }}>
+			<div
+				className="card-body"
+				style={{ color: "white", fontSize: "4rem" }}>
+				<h5 className="card-title">0</h5>
 			</div>
 		</div>
 	);
 };
-
+// Card.propTypes ={
+// 	number=PropTypes.number
+// }
 export default Card;
